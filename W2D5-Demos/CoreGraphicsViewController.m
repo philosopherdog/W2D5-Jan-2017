@@ -8,11 +8,9 @@
 
 #import "CoreGraphicsViewController.h"
 #import "TopView.h"
-#import "BottomView.h"
 
 @interface CoreGraphicsViewController ()
 @property (weak, nonatomic) IBOutlet TopView *topView;
-@property (weak, nonatomic) IBOutlet BottomView *bottomView;
 @end
 
 @implementation CoreGraphicsViewController
@@ -22,7 +20,7 @@
 }
 
 - (IBAction)clear {
-  [self.bottomView clear];
+  
 }
 
 

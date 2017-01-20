@@ -294,18 +294,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hkG-v4-ONq" customClass="BottomView">
-                                <rect key="frame" x="0.0" y="334" width="375" height="333"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="hkG-v4-ONq" firstAttribute="leading" secondItem="J0g-kK-TDx" secondAttribute="leading" id="Gt0-88-rm4"/>
                             <constraint firstItem="ZBm-S2-Lpo" firstAttribute="top" secondItem="J0g-kK-TDx" secondAttribute="top" id="NgW-vo-icJ"/>
-                            <constraint firstItem="eg9-87-Lr6" firstAttribute="top" secondItem="hkG-v4-ONq" secondAttribute="bottom" id="WH5-Yk-VTj"/>
-                            <constraint firstAttribute="trailing" secondItem="hkG-v4-ONq" secondAttribute="trailing" id="Y82-7U-EgK"/>
-                            <constraint firstItem="hkG-v4-ONq" firstAttribute="top" secondItem="ZBm-S2-Lpo" secondAttribute="bottom" id="gS7-fD-KEp"/>
                             <constraint firstAttribute="trailing" secondItem="ZBm-S2-Lpo" secondAttribute="trailing" id="kuR-CJ-5iT"/>
                             <constraint firstItem="ZBm-S2-Lpo" firstAttribute="leading" secondItem="J0g-kK-TDx" secondAttribute="leading" id="lAk-ZK-omI"/>
                             <constraint firstItem="ZBm-S2-Lpo" firstAttribute="height" secondItem="J0g-kK-TDx" secondAttribute="height" multiplier="0.5" id="zpT-6K-ck3"/>
@@ -319,7 +311,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="bottomView" destination="hkG-v4-ONq" id="0P3-lW-Yy1"/>
                         <outlet property="topView" destination="ZBm-S2-Lpo" id="FBs-mW-e2v"/>
                     </connections>
                 </viewController>

@@ -22,8 +22,6 @@
 		AA79C9F51E31892200A5044D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA79C9F41E31892200A5044D /* WebKit.framework */; };
 		AA79C9F81E318FC300A5044D /* CoreGraphicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA79C9F71E318FC300A5044D /* CoreGraphicsViewController.m */; };
 		AA79C9FB1E31907300A5044D /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA79C9FA1E31907300A5044D /* TopView.m */; };
-		AA79C9FE1E31908B00A5044D /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA79C9FD1E31908B00A5044D /* BottomView.m */; };
-		AA79CA041E319F5B00A5044D /* LineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = AA79CA031E319F5B00A5044D /* LineSegment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,10 +62,6 @@
 		AA79C9F71E318FC300A5044D /* CoreGraphicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsViewController.m; sourceTree = "<group>"; };
 		AA79C9F91E31907300A5044D /* TopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
 		AA79C9FA1E31907300A5044D /* TopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
-		AA79C9FC1E31908B00A5044D /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
-		AA79C9FD1E31908B00A5044D /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
-		AA79CA021E319F5B00A5044D /* LineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineSegment.h; sourceTree = "<group>"; };
-		AA79CA031E319F5B00A5044D /* LineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineSegment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,10 +153,6 @@
 				AA79C9F71E318FC300A5044D /* CoreGraphicsViewController.m */,
 				AA79C9F91E31907300A5044D /* TopView.h */,
 				AA79C9FA1E31907300A5044D /* TopView.m */,
-				AA79C9FC1E31908B00A5044D /* BottomView.h */,
-				AA79C9FD1E31908B00A5044D /* BottomView.m */,
-				AA79CA021E319F5B00A5044D /* LineSegment.h */,
-				AA79CA031E319F5B00A5044D /* LineSegment.m */,
 			);
 			name = CoreGraphics;
 			sourceTree = "<group>";
@@ -298,13 +288,11 @@
 				AA79C9F81E318FC300A5044D /* CoreGraphicsViewController.m in Sources */,
 				AA79C9E41E31296500A5044D /* TextFieldViewController.m in Sources */,
 				AA79C9F01E31846B00A5044D /* WebViewController.m in Sources */,
-				AA79C9FE1E31908B00A5044D /* BottomView.m in Sources */,
 				AA79C9EA1E314A5C00A5044D /* WebManagerViewController.m in Sources */,
 				AA79C9F31E3188C900A5044D /* WKWebViewController.m in Sources */,
 				AA79C9C21E31292B00A5044D /* AppDelegate.m in Sources */,
 				AA79C9FB1E31907300A5044D /* TopView.m in Sources */,
 				AA79C9E71E3140AF00A5044D /* TextViewViewController.m in Sources */,
-				AA79CA041E319F5B00A5044D /* LineSegment.m in Sources */,
 				AA79C9BF1E31292B00A5044D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +494,7 @@
 				AA79C9DE1E31292B00A5044D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA79C9DF1E31292B00A5044D /* Build configuration list for PBXNativeTarget "W2D5-DemosTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +503,7 @@
 				AA79C9E11E31292B00A5044D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
