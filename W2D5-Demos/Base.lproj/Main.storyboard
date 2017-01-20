@@ -142,10 +142,10 @@
             </objects>
             <point key="canvasLocation" x="2089" y="116"/>
         </scene>
-        <!--Web View Controller-->
+        <!--Web Manager View Controller-->
         <scene sceneID="r4f-S9-Hes">
             <objects>
-                <viewController id="9Sr-Bs-M9s" customClass="WebViewController" sceneMemberID="viewController">
+                <viewController id="9Sr-Bs-M9s" customClass="WebManagerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xaf-lj-Ez1"/>
                         <viewControllerLayoutGuide type="bottom" id="yl7-Ru-gQY"/>
@@ -294,13 +294,21 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ydS-AK-6Cc" customClass="BottomView">
+                                <rect key="frame" x="0.0" y="333" width="375" height="334"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="eg9-87-Lr6" firstAttribute="top" secondItem="ydS-AK-6Cc" secondAttribute="bottom" id="FzX-HB-gOK"/>
                             <constraint firstItem="ZBm-S2-Lpo" firstAttribute="top" secondItem="J0g-kK-TDx" secondAttribute="top" id="NgW-vo-icJ"/>
+                            <constraint firstItem="ydS-AK-6Cc" firstAttribute="leading" secondItem="J0g-kK-TDx" secondAttribute="leading" id="czB-6I-Qyw"/>
+                            <constraint firstAttribute="trailing" secondItem="ydS-AK-6Cc" secondAttribute="trailing" id="d7h-jL-YRp"/>
+                            <constraint firstItem="ydS-AK-6Cc" firstAttribute="height" secondItem="ZBm-S2-Lpo" secondAttribute="height" id="e90-N2-1Sf"/>
                             <constraint firstAttribute="trailing" secondItem="ZBm-S2-Lpo" secondAttribute="trailing" id="kuR-CJ-5iT"/>
                             <constraint firstItem="ZBm-S2-Lpo" firstAttribute="leading" secondItem="J0g-kK-TDx" secondAttribute="leading" id="lAk-ZK-omI"/>
-                            <constraint firstItem="ZBm-S2-Lpo" firstAttribute="height" secondItem="J0g-kK-TDx" secondAttribute="height" multiplier="0.5" id="zpT-6K-ck3"/>
+                            <constraint firstItem="ZBm-S2-Lpo" firstAttribute="height" secondItem="J0g-kK-TDx" secondAttribute="height" multiplier="0.5" id="oXo-CH-soR"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="G8y-DU-bEd">
@@ -311,6 +319,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="bottomView" destination="ydS-AK-6Cc" id="YXH-HE-r1J"/>
                         <outlet property="topView" destination="ZBm-S2-Lpo" id="FBs-mW-e2v"/>
                     </connections>
                 </viewController>
