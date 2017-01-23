@@ -16,7 +16,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
+
+  
+  NSString *s = [NSNumberFormatter localizedStringFromNumber:@(12.5079) numberStyle:NSNumberFormatterCurrencyAccountingStyle];
+  
+  
+  NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
+  f.numberStyle = NSNumberFormatterCurrencyAccountingStyle;
+  NSString *s1 = [f stringFromNumber:@(12.00989)];
+  
+  NSLog(@"%@, %@", s, s1);
+  
+  
+  
+  
+  
+  
+  
+  
+  
   return YES;
 }
 
